@@ -1,7 +1,7 @@
 body {
-  font-family: 'ABeeZee';
-  font-size: 20px;
+  font-size: 15px;
   margin: 3%;
+  font-weight: bold;
 }
 
 a{
@@ -27,7 +27,7 @@ header, .about{
 
 fieldset{
   max-width: 50%;
-  border-radius: 10px;
+  border-radius: 3px;
   background-color: rgb(224, 225, 252);
 }
 
