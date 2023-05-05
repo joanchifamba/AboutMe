@@ -2,6 +2,7 @@ div {
     border-radius: 5px;
     padding: auto;
     background-color: #f2f2f2;
+    width: 60%;
 }
 input[type=text], select {
     width: 100%;
