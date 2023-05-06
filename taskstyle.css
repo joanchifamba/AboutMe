@@ -1,0 +1,64 @@
+body {
+   
+    font-size: 20px;
+}
+
+section{
+    margin: 2%;
+    border: 3px solid blue;
+    padding: 20px 20px 50px 20px;
+    width: 90%;
+}
+
+.header{
+    color: blue;
+    width: 70%;
+   
+}
+
+.main-content{
+    display: flex;
+}
+
+.col-1{
+    width: 30%;
+}
+
+.col-2{
+    width: 70%;
+}
+
+input, textarea{
+    font-family: monospace;
+}
+
+input[type=text], button#submitBtn, button#resetBtn, textarea{
+    padding: 10px;
+    font-size: 20px;
+}
+
+button#submitBtn, button#resetBtn{
+    width: 80%;
+    border-radius: 0px;
+}
+
+input[type=text]{
+    width: 80%;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+textarea{
+    background-color: white;
+}
+
+#taskCounter{
+    
+    font-size: 24px;
+}

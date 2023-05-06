@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <title>Retrieve Grade</title>
+</head>
+<body>
+    <div>
+        <h1>Retrieve your grade</h1>
+        <form action="index.html">
+            <label for="fname">Name:</label>
+            <input type="text" name="fname" placeholder="Enter first name"><br>
+            <label for="studID">Student ID:</label>
+            <input type="text" name="studID" placeholder="Enter your student ID">
+            <label for="assignments">Choose assignments</label>
+            <select name="assignments" id="ass">
+                <option value="lab1">Lab1</option>
+                <option value="lab2">Lab2</option>
+                <option value="lab3">Lab3</option>
+                <option value="lab4">Lab4</option>
+            </select>
+            <fieldset>
+                <legend>Select entry</legend>
+                <input type="radio" name="cc" value="Feb" checked>Spring 2023
+                <input type="radio" name="cc" value="April">Winter 2023
+                <input type="radio" name="cc" value="August">Summer 2023
+            </fieldset>
+            <p><input type="checkbox" name="proficiency">I confirm that l am looking for my own grade.</p>
+            <input type="submit" value="Submit">            
+           </form> 
+    </div>
+  
+</body>
+</html>
