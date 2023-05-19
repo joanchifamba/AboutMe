@@ -20,17 +20,7 @@ exports.calculate = (req, res) => {
                         font-weight: bold;
                         text-align: center;
                     }
-                    a{
-                        text-decoration: none;
-                        border: 1px solid black;
-                        border-radius: 5px;
-                        padding: 5px;
-                    }
-                    a:hover{
-                        background-color: yellow;
-                        border: 3px solid black;
-                    }
-                </style>
+                   
             </head>
             <body>
                 <h2>The answer is: ${result}</h2>
@@ -42,23 +32,23 @@ exports.calculate = (req, res) => {
     res.end();
 }
 
-function calculateFn(first, operator, second) {
+function calculateFn(number1, operator, number2) {
     let result = 0;    
         switch (operator) {
             case "+":
-                 result = first + second;
+                 result = number1 + number2;
                 break;
             case "-":
-                 result = first - second;
+                 result = number1 - number2;
                 break;
             case "*":
-                 result = first * second;
+                 result = number1 * number2;
                 break;
             case "/":
                 if(second == 0) {
                     result = 0;
                 } else {
-                    result = first / second;
+                    result = number1 / number2;
                 }
                 break;
             default:
